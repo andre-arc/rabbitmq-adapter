@@ -1,6 +1,6 @@
 <?php
 
-namespace RabbitMQAdapter;
+namespace Dreanarc\RabbitMQAdapter;
 
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
