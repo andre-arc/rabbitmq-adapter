@@ -1,0 +1,25 @@
+{
+    "name": "dreanarc/rabbitmq-adapter",
+    "description": "Description of your package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andri Darnius",
+            "email": "andridarnius@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "php-amqplib/php-amqplib": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "RabbitMQAdapter\\": "src/"
+        },
+        "files": [
+            "src/RabbitMQProducer.php",
+            "src/RabbitMQConsumer.php"
+        ]
+    }
+}
