@@ -1,6 +1,6 @@
 {
     "name": "dreanarc/rabbitmq-adapter",
-    "description": "Description of your package",
+    "description": "RabbitMQ Adapter For PHP",
     "type": "library",
     "license": "MIT",
     "authors": [
